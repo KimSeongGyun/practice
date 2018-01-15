@@ -28,6 +28,7 @@ if __name__=='__main__':
             uppercase = False
             lowercase = False
             number = False
+            length = False
             
             #check each letter for condition
             for letter in pass_list:
@@ -37,9 +38,11 @@ if __name__=='__main__':
                     lowercase = True
                 if check_number(letter):
                     number = True
+                if len(pass_list) >= 8:
+                    length = True
 
             # only if all three conditions are met
-            if uppercase and lowercase and number:
+            if uppercase and lowercase and number and length:
                 while True:
                     password_two = str(input("Enter password again: "))
                     if password_two == password_one:
