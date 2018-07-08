@@ -15,7 +15,7 @@ Install Jupyter:
 sudo apt-get install jupyter
 ```
 
-Lastly, install OpenCV3 from source by following the instructions in the link below.
+Lastly, install OpenCV3 from source by following the instructions in the link below.  
 [Install OpenCV3 in Ubuntu 16.04](http://webnautes.tistory.com/1030)
 
 Otherwise, a more simple Pip installation of OpenCV can be done by the following commands. 
