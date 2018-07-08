@@ -40,4 +40,5 @@ Quick introduction to Numpy with some relevant and useful commands. Open file un
 
 ## Intro to OpenCV
 
-Quick introduction to OpenCV. Run on Jupyter
+Very quick introduction to OpenCV which introduces how it works and how it's integrated with Numpy in Python.  
+
